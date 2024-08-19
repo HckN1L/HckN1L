@@ -21,18 +21,7 @@
             text-decoration: none;
         }
 
-        .tryhackme-button img {
-            height: 25px;
-            margin-right: 10px;
-            vertical-align: middle;
-        }
-
-        .tryhackme-button:hover {
-            background: linear-gradient(45deg, #388E3C, #4CAF50);
-            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
-            transform: translateY(-3px);
-        }
-    </style>
+       
 </head>
 <body>
     <a href="https://tryhackme.com/p/HckN1L" target="_blank" class="tryhackme-button">
