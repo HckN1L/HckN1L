@@ -3,14 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+    <title>Styled TryHackMe Button</title>
+    <style>
+        .tryhackme-button {
+            padding: 15px 30px;
+            background: linear-gradient(45deg, #4CAF50, #388E3C);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: bold;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            transition: all 0.3s ease;
+            display: inline-flex;
+            align-items: center;
+            text-decoration: none;
+        }
+
+        .tryhackme-button img {
+            height: 25px;
+            margin-right: 10px;
+            vertical-align: middle;
+        }
+
+        .tryhackme-button:hover {
+            background: linear-gradient(45deg, #388E3C, #4CAF50);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+            transform: translateY(-3px);
+        }
+    </style>
 </head>
 <body>
-    <a href="https://tryhackme.com/p/HckN1L" target="_blank">
-        <button style="padding: 10px 20px; background-color: #4CAF50; color: white; border: none; border-radius: 5px; cursor: pointer;">
-            <img src="https://tryhackme-badges.s3.amazonaws.com/HckN1L.png" alt="TryHackMe" style="height: 20px; vertical-align: middle;">
-            Visit My TryHackMe Profile
-        </button>
+    <a href="https://tryhackme.com/p/HckN1L" target="_blank" class="tryhackme-button">
+        <img src="https://tryhackme-badges.s3.amazonaws.com/HckN1L.png" alt="TryHackMe">
+        Visit My TryHackMe Profile
     </a>
 </body>
 </html>
