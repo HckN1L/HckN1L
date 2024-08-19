@@ -21,7 +21,6 @@
             text-decoration: none;
         }
 
-       
 </head>
 <body>
     <a href="https://tryhackme.com/p/HckN1L" target="_blank" class="tryhackme-button">
