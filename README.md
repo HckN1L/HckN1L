@@ -1,4 +1,4 @@
-# 💫 About Me:
+# $ whoami:
 Cyber Security || CTF Player || Programmer.
 
 
