@@ -2,7 +2,7 @@
 ## W4nn4_ b3_H4ck3r
 
 <img src="https://tryhackme-badges.s3.amazonaws.com/HckN1L.png" alt="Your Image Badge" />
-### Languages and Tools:
+Languages and Tools:
 
 [![Python][python-shield]][python-url]
 [![Bash][bash-shield]][bash-url]
